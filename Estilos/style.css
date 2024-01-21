@@ -1,0 +1,72 @@
+:root{
+    --titulos--: #FA1200;
+    --footercoor--: #7A413D;
+    --pequenas--: #BA382F;
+    --parrafos--:2.5rem;
+}
+html{
+    font-size: 63.5%;
+}
+body{
+    align-items: center;
+    max-width: 100rem;
+    padding-left: 30rem;
+    font-family: monospace;
+}
+main{
+    font-size: var(--parrafos--);
+}
+main div{
+    padding-left: 1rem;
+}
+.cartacontenido{
+    display:flex;
+    align-items: center;
+}
+header nav{
+    justify-content: space-evenly;
+}
+footer{
+    padding-top: 20px;
+}
+.contacto{
+    font-size: var(--parrafos--);
+}
+form{
+    
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logofacebook:hover{
+    filter: brightness(4);
+    color: black;
+}.logoinstagram:hover{
+    filter: brightness(4);
+    color: black;
+}.logox:hover{
+    filter: brightness(4);
+    color: black;
+}.logowhatsapp:hover{
+    filter: brightness(4);
+    color: black;
+}
+#title{
+    font-family:'JetBrains Mono',Arial, sans-serif;
+    font-size: 8rem;
+    color: var(--titulos--);
+}
+#mini{
+    font-size: 5rem;
+    color: var(--pequenas--);
+}
+p{
+    font-size: var(--parrafos--);
+}
+a{
+    font-size: var(--parrafos--);
+}
